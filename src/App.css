@@ -44,6 +44,7 @@ body,
 }
 
 .Links a {
+  font-weight: medium;
   text-decoration: none;
   color: #000;
 }
@@ -60,8 +61,8 @@ body,
 }
 
 .hero h1 {
-  font-size: 56px;
-  font-weight: 500;
+  font-size: 92px;
+  font-weight: 300;
   line-height: 1.2;
   color: #000000;
 }
@@ -73,7 +74,8 @@ body,
 .hero p {
   margin-top: 125px;
   max-width: 720px;
-  font-size: 14px;
+  font-size: 17px;
+  font-weight: 14px;
   line-height: 1.6;
   color: #333333;
 }
