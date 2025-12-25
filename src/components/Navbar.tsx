@@ -1,19 +1,22 @@
-const Navbar: React.FC = () => {
-  return (
-    <header className="navbar">
-      <div className="logo">
-        <span className="logo-box">ai</span>
-        <span className="logo-text">lab</span>
-      </div>
+import React from "react";
+import logo from "../assets/nav-bar.svg"; // update path if needed
 
-      <nav className="nav-links">
-        <a href="#">Services</a>
-        <a href="#">Our Product</a>
-        <a href="#">About Us</a>
-        <a href="#">Team</a>
-        <a href="#">Contact Us</a>
-      </nav>
-    </header>
+const Navbar = () => {
+  return (
+    <nav>
+        <div>
+        <img src={logo} alt="AI Lab Logo" />
+        </div>
+        <div>
+          <ul className="Links">
+            <li>Services</li>
+            <li>Our Product</li>
+            <li>About Us</li>
+            <li>Team</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+    </nav>
   );
 };
 
