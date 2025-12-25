@@ -21,24 +21,26 @@ body,
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 80px;
+  padding: 0px 60px 0px 80px;
 }
 
 .logo {
   display: flex;
   align-items: center;
 }
+
 .logo img {
-  height: 10px;   /* or 40px */
+  height: 43px;
   width: auto;
+  display: block;
 }
 
 .Links {
   list-style: none;
-  padding: 0;
+  padding-right: 10px;
   margin: 0;
   display: flex;
-  gap: 32px;
+  gap: 48px;
 }
 
 .Links a {
