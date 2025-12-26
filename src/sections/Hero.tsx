@@ -9,11 +9,12 @@ const Hero: React.FC = () => {
 
       <div className="hero-overlay"></div>
 
-      <div className="hero-content">
+      <div className="hero-tittle">
         <h1>
           <span>Exploring </span>Tourism <br />
         </h1>
-
+      </div>
+      <div className="hero-subtittle">
       <p>
         Pioneering intelligent solutions that make exploration smarter, simpler, and more personal.
 
