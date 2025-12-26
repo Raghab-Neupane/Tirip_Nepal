@@ -60,33 +60,33 @@ body,
 
 .hero {
   position: relative;
-  height: 100vh; 
+  height: 100vh;
   overflow: hidden;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: #000;
+  background: #ffffff;
 }
+
 
 .hero-video {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 70%;
-  width: 200px;
-  height: 1000px;
-  transform: translate(-50%, -50%);
+  inset: 0;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   z-index: 1;
 }
 
+
 .hero-overlay {
   position: absolute;
+  margin-bottom: 120px;
   inset: 0;
   background: linear-gradient(
-    rgba(0, 0, 0, 0.508),
-    rgba(0, 0, 0, 0.687)
+    rgba(0, 0, 0, 0.44),
+    rgba(0, 0, 0, 0.504)
   );
   z-index: 2;
 }
@@ -112,26 +112,27 @@ body,
   color: #ffffff;
   
 }
-.Booking-card {
 
+.Booking-card {
   position: relative;
-  z-index: 5; 
+  z-index: 5;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 90px;
+
   width: 80%;
   max-width: 1100px;
   height: 90px;
 
-  margin: 77px auto 0;
+  margin: 120px auto -45px; /* 👈 THIS is the key */
   padding: 16px 20px;
 
   background: #ffffff;
   border-radius: 14px;
 
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.18);
-  gap: 10px;
+  gap: 8px;
 }
 
 
@@ -234,11 +235,18 @@ body,
 }
 
 .package-section {
-  padding-left: 20px;
+  position: relative;
+  margin-top: -120px;   /* pulls section upward */
+  padding-top: 160px;   /* space for content */
+  background: #ffffff;
+  z-index: 1;
+  padding-left: 40px;
 }
 
+
+
 .package-section h2 {
-  margin-top: 19px;
+  margin-top: -50px;
   font-size: 88px;
   
 }
