@@ -11,8 +11,7 @@ const Hero: React.FC = () => {
 
       <div className="hero-content">
         <h1>
-          Transforming Tourism <br />
-          Through <span>Exploration</span>
+          <span>Exploring </span>Tourism <br />
         </h1>
 
       <p>

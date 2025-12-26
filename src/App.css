@@ -102,14 +102,15 @@ body,
 }
 
 .hero-content h1 {
-  font-size: 76px;
-  font-weight: 350;
-  line-height: 1.15;
+  font-size: 98px;
+  color: #17b9cb;
+  
 }
 
 .hero-content h1 span {
-  color: #17b9cb;
-  font-weight: 400;
+  font-size: 98px;
+  color: #ffffff;
+  
 }
 
 .hero-content p {
@@ -128,6 +129,7 @@ body,
 .package-section h2 {
   margin-top: 19px;
   font-size: 88px;
+  
 }
 
 .package-section h2 span {
