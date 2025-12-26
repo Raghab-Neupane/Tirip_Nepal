@@ -108,7 +108,7 @@ body,
 }
 
 .hero-content h1 span {
-  color: #7bdc3c;
+  color: #17b9cb;
   font-weight: 400;
 }
 
@@ -119,6 +119,15 @@ body,
   font-weight: 250;
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.9);
+}
+
+.package-section h2 {
+  margin-top: 19px;
+  font-size: 88px;
+}
+
+.package-section h2 span {
+  color: #17b9cb;
 }
 
 @media (max-width: 768px) {

@@ -3,7 +3,7 @@ import React from "react";
 const Package: React.FC = () => {
   return (
     <section id="Packages" className="package-section">
-        <h2 className="section-title">Our <span>Packages</span></h2>
+        <h2 >Our <span>Packages</span></h2>
         <div className="package-container">
             <div className="package-card">
                 <h3>Mustang</h3>
