@@ -10,7 +10,7 @@ body {
  
 }
 
-/* NAVBAR */
+
 .navbar {
   height: 70px;
 
@@ -28,7 +28,7 @@ body {
   font-size: 15px;
 }
 
-/* HERO */
+
 .hero {
   height: calc(100vh - 70px);
   display: flex;
