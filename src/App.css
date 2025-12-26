@@ -259,10 +259,7 @@ body,
   display: flex;
   gap: 32px;
   padding: 60px 40px 20px;
-
-  overflow-x: hidden;   /* controlled by buttons */
-  overflow-y: visible;
-
+  width: max-content;
   scroll-behavior: smooth;
 }
 
@@ -271,7 +268,6 @@ body,
   font-size: 27px;
   margin-bottom: 16px;
 }
-
 
 .package-container .package-card {
   background: #f7f7f7;
@@ -305,6 +301,60 @@ body,
   font-size: 14px;
   line-height: 1.6;
   color: #555;
+}
+
+.scroll-viewport {
+  display: flex;
+  gap: 32px;
+
+  overflow-x: auto;
+  overflow-y: visible;
+
+  scroll-behavior: smooth;
+
+  scrollbar-width: none;        /* Firefox */
+}
+
+.horizontal-scroll {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.horizontal-scroll button {
+  z-index: 10;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 20;                /* 🔥 ABOVE SCROLL */
+  
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+
+  background: #ffffff;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  cursor: pointer;
+
+  font-size: 22px;
+}
+
+.scroll-btn.left {
+  left: 10px;
+}
+
+.scroll-btn.right {
+  right: 10px;
 }
 
 

@@ -12,13 +12,12 @@ const Hero: React.FC = () => {
 
       <div className="hero-tittle">
         <h1>
-          <span>Exploring </span>Tourism <br />
+          <span>Exploring </span>tourism <br />
         </h1>
       </div>
       <div className="hero-subtittle">
       <p>
         Pioneering intelligent solutions that make exploration smarter, simpler, and more personal.
-
       </p>
 
       </div>
