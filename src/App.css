@@ -85,8 +85,8 @@ body,
   position: absolute;
   inset: 0;
   background: linear-gradient(
-    rgba(0, 0, 0, 0.619),
-    rgba(0, 0, 0, 0.801)
+    rgba(0, 0, 0, 0.508),
+    rgba(0, 0, 0, 0.687)
   );
   z-index: 2;
 }
@@ -152,7 +152,7 @@ body,
 
 
 .package-container .package-card {
-  background: #ede9e9;
+  background: #f7f7f7;
   height: 340px;
   width: 100%;
   border-radius: 5px;
