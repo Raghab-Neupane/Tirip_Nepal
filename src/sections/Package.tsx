@@ -2,7 +2,7 @@ import React from "react";
 
 const Services: React.FC = () => {
   return (
-    <section id="services" className="services-section">
+    <section id="Packages" className="services-section">
         <h2 className="section-title">Our <span>Packages</span></h2>
         <div className="services-container">
             <div className="service-card">
