@@ -17,7 +17,7 @@ const Package: React.FC = () => {
                             <h3>Mustang</h3>
                             <p>
                                 Ancient culture, dramatic landscapes, and timeless Himalayan beauty.
-                                A journey into Nepal’s hidden kingdom.
+                                A journey into Nepal's hidden kingdom.
                             </p>
                         </div>
                     </div>
@@ -28,7 +28,7 @@ const Package: React.FC = () => {
                             <h3>Mountaining</h3>
                             <p>
                                 High-altitude treks and thrilling mountain experiences.
-                                Guided adventures across Nepal’s peaks.
+                                Guided adventures across Nepal's peaks.
                             </p>
                         </div>
                     </div>
@@ -61,11 +61,11 @@ const Package: React.FC = () => {
                             <h3>Mustang</h3>
                             <p>
                                 Ancient culture, dramatic landscapes, and timeless Himalayan beauty.
-                                A journey into Nepal’s hidden kingdom.
+                                A journey into Nepal's hidden kingdom.
                             </p>
                         </div>
                     </div>
-                    
+
                 </div>
             </HorizontalScroll>
         </section>
