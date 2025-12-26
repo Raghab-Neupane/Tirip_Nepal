@@ -121,6 +121,10 @@ body,
   color: rgba(255, 255, 255, 0.9);
 }
 
+.package-section {
+  padding-left: 20px;
+}
+
 .package-section h2 {
   margin-top: 19px;
   font-size: 88px;
@@ -128,6 +132,19 @@ body,
 
 .package-section h2 span {
   color: #17b9cb;
+}
+
+.package-container {
+  margin-top: 64px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+  padding-right: 20px;
+  padding-bottom: 80px;
+}
+.package-container h3 {
+  font-size: 27px;
+  margin-bottom: 16px;
 }
 
 @media (max-width: 768px) {
