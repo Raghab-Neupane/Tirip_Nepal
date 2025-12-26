@@ -1,4 +1,4 @@
-import videoSrc from "../assets/trimmed.mp4";
+import videoSrc from "../assets/Buddhist_Flags_in_Himalayan_Sky.mp4";
 
 const Hero: React.FC = () => {
   return (
@@ -11,14 +11,13 @@ const Hero: React.FC = () => {
 
       <div className="hero-content">
         <h1>
-          Transforming Healthcare <br />
-          Through <span>AI Innovation</span>
+          Transforming Tourism <br />
+          Through <span>Exploration</span>
         </h1>
 
       <p>
-        Pioneering intelligent solutions that bridge artificial intelligence
-        and medical practice. From automated documentation to diagnostic
-        support, we're revolutionizing healthcare delivery.
+        Pioneering intelligent solutions that make exploration smarter, simpler, and more personal.
+
       </p>
 
       </div>
