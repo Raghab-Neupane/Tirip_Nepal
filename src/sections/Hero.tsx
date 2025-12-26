@@ -1,4 +1,5 @@
 import videoSrc from "../assets/Buddhist_Flags_in_Himalayan_Sky.mp4";
+import BookingBar from "../components/Bookingbar";
 
 const Hero: React.FC = () => {
   return (
@@ -21,6 +22,7 @@ const Hero: React.FC = () => {
       </p>
 
       </div>
+      <BookingBar />
     </main>
   );
 };
