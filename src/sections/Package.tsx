@@ -1,5 +1,5 @@
 import PackageCard from "../components/Productcard/Packagecard";
-
+import HorizontalScroll from "../components/HorizontalScroll";
 import Mustang from "../assets/mustag.webp";
 import Mountaintrek from "../assets/mountaintrek.webp";
 import Everest from "../assets/mountain.webp";
@@ -11,7 +11,7 @@ const Package: React.FC = () => {
       <h2>
         Our <span>Packages</span>
       </h2>
-
+    <HorizontalScroll>
       <div className="package-container">
         <PackageCard
           image={Mustang}
@@ -37,6 +37,7 @@ const Package: React.FC = () => {
           description="Authentic local living with culture, comfort, and warm hospitality."
         />
       </div>
+    </HorizontalScroll>
     </section>
   );
 };
