@@ -1,18 +1,20 @@
 .package-section {
     padding-left: 32px;
+    
 }
 
 .package-section h2 {
     font-size: 82px;
     margin-top: 10px;
-    margin-bottom: 64px;
+   
 }
 
 .package-section span {
-    color: rgb(23, 185, 203);
+    color: #17b9cb;
 }
 
 .package-card {
+  margin-top: 64px;
   display: flex;
   flex-direction: column;
   height: 370px;
@@ -24,7 +26,7 @@
 }
 
 .package-card:hover {
-  transform: translateY(-12px);
+  transform: translateY(-22px);
   box-shadow: 0 20px 40px rgba(0,0,0,0.12);
 }
 
