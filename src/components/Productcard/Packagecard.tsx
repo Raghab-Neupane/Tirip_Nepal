@@ -19,6 +19,8 @@ const PackageCard: React.FC<PackageCardProps> = ({
         <h3>{title}</h3>
         <p>{description}</p>
       </div>
+
+      <p className="package-card__footer">Explore Now</p>
     </div>
   );
 };

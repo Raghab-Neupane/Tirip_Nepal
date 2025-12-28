@@ -54,12 +54,21 @@
   margin-top: 15px;
   font-size: 30px;
   margin-bottom: 15px;
+  color: #1c1c1c;
 }
 
 .package-card__text p {
   font-size: 14px;
   line-height: 1.7;
   color: #737373;
+}
+
+.package-card__footer {
+  margin-top: 15px;
+  align-items: right;
+  font-size: 19px;
+  color: #17b9cb;
+  cursor: pointer;
 }
 
 .scroll-viewport {
