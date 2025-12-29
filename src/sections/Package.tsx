@@ -17,6 +17,7 @@ const Package: React.FC = () => {
     <HorizontalScroll>
         
       <div className="package-container">
+
         <PackageCard
           image={Mustang}
           title="Mustang"

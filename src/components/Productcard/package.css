@@ -29,7 +29,7 @@
 .package-card {
   flex: 0 0 320px;
   flex-direction: column;
-  height: 340px;
+  height: 375px;
   width: 320px;
   background: #f7f7f7;
   border-radius: 5px;
@@ -64,7 +64,9 @@
 }
 
 .package-card__footer {
-  margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+  margin-top: 25px;
   align-items: right;
   font-size: 19px;
   color: #17b9cb;
