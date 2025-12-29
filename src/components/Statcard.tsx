@@ -13,7 +13,7 @@ const StatCard: React.FC = () => {
       <div className="stat-card-2">
         <Statdispcard 
         title="300+ Destinations"
-        description="Explore the world's most beautiful places."
+        description="Explore various locations with us!"
         />
       </div>
     </>

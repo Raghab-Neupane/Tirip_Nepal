@@ -13,7 +13,9 @@ const Reach = () => {
         </p>
         <div className="body">
           <img className='mapofnepal' src={nepal} alt="Nepal Map" />
-          <StatCard />
+          <div className="reach-stats">
+            <StatCard />
+          </div>
         </div>
       </div>
     </div>
