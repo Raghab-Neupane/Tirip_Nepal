@@ -234,6 +234,14 @@ body,
   color: rgba(255, 255, 255, 0.9);
 }
 
+.Reach {
+  font-family: "Albert Sans", sans-serif;
+  font-size: 88px;
+  font-weight: 700;
+  height: 230px;
+  padding-left: 40px;
+  padding-top: 40px;
+}
 
 @media (max-width: 768px) {
   .navbar {
