@@ -10,7 +10,7 @@ const StatCard: React.FC<StatCardProps> = ({
   description,
 }) => {
   return (
-      <div className="stat-card__text">
+      <div className="stat-card">
         <h3>{title}</h3>
         <p>{description}</p>
       </div>
