@@ -1,38 +1,39 @@
 .Imageshowcase {
   position: relative;
-  margin: 50px -20px 40px 0px;
-  padding-left: 80px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   display: flex;
   justify-content: center;
+  gap: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .Imageshowcase img {
-  width: 1080px;
+  width: 900px;
   height: auto;
   border-radius: 19px;
-  position: relative;
+  justify-content: flex-start;
   z-index: 10;
   display: block;
 }
 
 .Imageshowcase-text {
-  position: absolute;
-  top: 50%;
-  z-index: 20;
-  max-width: 420px;
-  transform: translateX(-75%);
-  gap: 1px;
+    background-color: #1792cb;
+    border-radius: 19px;
+    width: 400px;
 }
 
 .Imageshowcase-text h2 {
-  color: #ffffff;
-  transform: translateY(-50%);
-  font-size: 99px;
-  margin-top: 70px;
+    color: #ffffff;
+    font-size: 99px;
+    margin-top: 70px;
+    margin-left: 40px;
 }
 
 .Imageshowcase-text p {
-    margin-top: -20px;
-  font-size: 36px;
-  color: #ffffff;
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: 26px;
+    color: #ffffff;
 }
