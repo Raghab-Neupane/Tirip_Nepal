@@ -10,10 +10,9 @@ const Footer = () => {
         </div>
 
         <div className="footer__links">
-          <a href="#">About</a>
-          <a href="#">Services</a>
-          <a href="#">Projects</a>
-          <a href="#">Contact</a>
+          <a href="#packages">Packages</a>
+          <a href="#hotels">Hotels</a>
+          <a href="#about-us">About us</a>
         </div>
 
         <div className="footer__meta">
