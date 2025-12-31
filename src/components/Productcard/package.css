@@ -17,6 +17,10 @@
     color: #1792cb;
 }
 
+.PSB{
+    margin-top: 29px;
+}
+
 .package-container {
   display: flex;
   gap: 32px;

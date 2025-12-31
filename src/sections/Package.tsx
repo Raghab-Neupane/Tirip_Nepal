@@ -1,4 +1,7 @@
 import PackageCard from "../components/Productcard/Packagecard";
+import PackageSearchBox from "../components/packagesearchbox/package_search_box";
+
+
 import HorizontalScroll from "../components/HorizontalScroll";
 import Mustang from "../assets/mustag.webp";
 import Mountaintrek from "../assets/mountaintrek.webp";
@@ -15,7 +18,10 @@ const Package: React.FC = () => {
         Our <span>Packages</span>
       </h2>
     <HorizontalScroll>
-        
+      <div className="PSB">
+        <PackageSearchBox />
+      </div>
+
       <div className="package-container">
 
         <PackageCard
