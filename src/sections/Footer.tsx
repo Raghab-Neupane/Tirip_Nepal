@@ -10,7 +10,7 @@ const Footer = () => {
         </div>
 
         <div className="footer__links">
-          <a href="#packages">Packages</a>
+          <a href="#Package">Packages</a>
           <a href="#hotels">Hotels</a>
           <a href="#about-us">About us</a>
         </div>
