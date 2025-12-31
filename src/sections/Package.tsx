@@ -13,7 +13,7 @@ import sp from "../assets/sp.webp"
 
 const Package: React.FC = () => {
   return (
-    <section id="Packages" className="package-section">
+    <section id="Package" className="package-section">
       <h2>
         Our <span>Packages</span>
       </h2>

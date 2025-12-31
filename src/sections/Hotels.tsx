@@ -12,7 +12,7 @@ import ktm from '../assets/hotels_image/Hotel Himalayan.jpg'
 
 const Hotels = () => {
   return (
-    <div className="hotel">
+    <div className="hotel" id='hotels'>
         <h2>Partnered <span>Hotels</span></h2>
 
         <div className="PSB">

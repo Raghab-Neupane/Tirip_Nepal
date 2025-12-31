@@ -3,7 +3,7 @@ import StatCard from '../components/Statcard';
 
 const Reach = () => {
   return (
-    <div className="Reach-page">
+    <div className="Reach-page" id="about-us">
       <h2>Our Reach in <span>Nepal</span></h2>
 
       <div className='Reach-content'>

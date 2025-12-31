@@ -1,7 +1,7 @@
 import logo from '../assets/Group 16.png';
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer" id="contact-us">
       <div className="footer__content">
         <img src={logo} alt="Yatra Nepal Logo" className="footer__logo" />
         <div className="footer__brand">

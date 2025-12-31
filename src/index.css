@@ -14,3 +14,9 @@
   font-size: 14px;
   color: #333;
 }
+#packages,
+#hotels,
+#reach,
+#footer {
+  scroll-margin-top: 90px;
+}
