@@ -4,7 +4,7 @@ import srch from '../../assets/search_icon.png'
 const PackageSearchBox = () => {
   return (
     <div className="searchbox">
-      <input type="text" placeholder="Search packages..." />
+      <input type="text" placeholder="Search hotels..." />
       <button>
         <img src={srch} alt="Search" className='button' />
       </button>

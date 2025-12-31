@@ -1,4 +1,6 @@
 import HorizontalScroll from '../components/HorizontalScroll';
+import PackageSearchBox from '../components/hotel/package_search_box';
+
 import Hc from '../components/hotelcard/hc';
 import Pokhara from '../assets/hotels_image/Pokhara.webp';
 import Kathmandu from '../assets/hotels_image/Kathmandu.webp';
@@ -12,6 +14,12 @@ const Hotels = () => {
   return (
     <div className="hotel">
         <h2>Partnered <span>Hotels</span></h2>
+
+        <div className="PSB">
+        <PackageSearchBox />
+      </div>
+
+
         <HorizontalScroll>
             <div className='hotel-cards-container'>
                 <Hc

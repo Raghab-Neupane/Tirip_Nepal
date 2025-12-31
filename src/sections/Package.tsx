@@ -1,5 +1,5 @@
 import PackageCard from "../components/Productcard/Packagecard";
-import PackageSearchBox from "../components/packagesearchbox/package_search_box";
+
 
 
 import HorizontalScroll from "../components/HorizontalScroll";
@@ -17,10 +17,8 @@ const Package: React.FC = () => {
       <h2>
         Our <span>Packages</span>
       </h2>
+      
     <HorizontalScroll>
-      <div className="PSB">
-        <PackageSearchBox />
-      </div>
 
       <div className="package-container">
 
