@@ -27,6 +27,7 @@
   transition: transform 0.2s;
   width: 340px;
   height: 400px;
+  margin-bottom: 100px;
 }
 
 .hotel-card:hover {
